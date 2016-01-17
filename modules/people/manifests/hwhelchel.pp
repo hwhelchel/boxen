@@ -30,6 +30,7 @@ class people::hwhelchel {
   include screenhero
   include zsh
   include zshgitprompt
+  include ohmyzsh
   include grandtotal
   include wunderlist
 
