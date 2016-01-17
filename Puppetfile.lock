@@ -84,11 +84,6 @@ GITHUBTARBALL
     go (2.1.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-grandtotal
-  specs:
-    grandtotal (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-heroku
   specs:
     heroku (2.1.1)
@@ -147,11 +142,6 @@ GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
     nodejs (5.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-onepassword
-  specs:
-    onepassword (1.1.5)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -214,11 +204,6 @@ GITHUBTARBALL
     skype (1.1.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-spectacle
-  specs:
-    spectacle (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-spotify
   specs:
     spotify (1.0.2)
@@ -242,11 +227,6 @@ GITHUBTARBALL
   remote: boxen/puppet-wkhtmltopdf
   specs:
     wkhtmltopdf (1.2.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-wunderlist
-  specs:
-    wunderlist (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -308,7 +288,6 @@ DEPENDENCIES
   gimp (= 1.0.1)
   git (= 2.7.92)
   go (= 2.1.0)
-  grandtotal (= 1.0.0)
   heroku (= 2.1.1)
   homebrew (= 1.13.0)
   hub (= 1.4.1)
@@ -324,7 +303,6 @@ DEPENDENCIES
   nmap (= 1.0.3)
   nodejs (= 5.0.0)
   ohmyzsh (>= 0)
-  onepassword (= 1.1.5)
   openssl (= 1.0.0)
   openssl (= 1.0.0)
   osx (= 2.8.0)
@@ -338,14 +316,12 @@ DEPENDENCIES
   selfcontrol (= 1.0.0)
   skitch (= 1.0.3)
   skype (= 1.1.0)
-  spectacle (= 1.0.0)
   spotify (= 1.0.2)
   stdlib (= 4.7.0)
   sublime_text (= 1.1.0)
   sudo (= 1.0.0)
   textual (= 4.2.0)
   wkhtmltopdf (= 1.2.1)
-  wunderlist (= 1.0.0)
   xquartz (= 1.2.1)
   zsh (= 1.0.0)
   zshgitprompt (= 1.0.2)

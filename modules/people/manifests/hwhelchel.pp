@@ -7,11 +7,9 @@ class people::hwhelchel {
   include erlang
   include fonts
   include iterm2::stable
-  include docker
   include julia
   include chrome
   include dropbox
-  include wkhtmltopdf
   include evernote
   include skype
   include clojure
