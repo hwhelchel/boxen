@@ -7,7 +7,6 @@ class people::hwhelchel {
   include spotify
   include heroku
   include foreman
-  include osx
   include erlang
   include fonts
   include iterm2
@@ -41,4 +40,13 @@ class people::hwhelchel {
   include grandtotal
   include kindle
   include wunderlist
+
+  include osx::global::tap_to_click
+  include osx::finder::show_hidden_files
+  class { 'osx::global::key_repeat_delay':
+    delay => 10
+  }
+  class { 'osx::global::key_repeat_rate':
+    rate => 2
+  }
 }
