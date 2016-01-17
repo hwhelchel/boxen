@@ -3,7 +3,8 @@ class people::hwhelchel {
   include onepassword
   include onepassword::chrome
 
-  include alfred
+  package { 'alfred': provider => 'brewcask' }
+
   include spotify
   include heroku
   include foreman

@@ -68,7 +68,6 @@ github "redis",       "3.1.0"
 
 # Personal Packages
 github "sublime_text", "1.1.0"
-github "alfred", "1.5.0"
 github "spotify", "1.0.2"
 github "heroku", "2.1.1"
 github "foreman", "1.2.0"
