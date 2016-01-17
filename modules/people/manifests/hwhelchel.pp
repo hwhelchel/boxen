@@ -1,9 +1,5 @@
 class people::hwhelchel {
   include sublime_text
-  include onepassword
-  include onepassword::chrome
-
-  package { 'alfred': provider => 'brewcask' }
 
   include spotify
   include heroku
@@ -12,8 +8,6 @@ class people::hwhelchel {
   include fonts
   include iterm2::stable
   include docker
-  include inkscape
-  include libreoffice
   include julia
   include chrome
   include dropbox
@@ -21,7 +15,6 @@ class people::hwhelchel {
   include spectacle
   include evernote
   include skype
-  include omnifocus
   include clojure
   include textual
   include skitch
@@ -37,10 +30,11 @@ class people::hwhelchel {
   include screenhero
   include zsh
   include zshgitprompt
-  include handbrake
   include grandtotal
-  include kindle
   include wunderlist
+
+  include onepassword
+  include onepassword::chrome
 
   include osx::global::tap_to_click
   include osx::finder::show_hidden_files

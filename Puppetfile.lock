@@ -1,9 +1,4 @@
 GITHUBTARBALL
-  remote: SalesLoft/puppet-erlang
-  specs:
-    erlang (1.0.4)
-
-GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.11.1)
@@ -299,6 +294,11 @@ GITHUBTARBALL
     zshgitprompt (1.0.2)
 
 GITHUBTARBALL
+  remote: hwhelchel/puppet-erlang
+  specs:
+    erlang (1.0.5)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.4.1)
@@ -323,7 +323,7 @@ DEPENDENCIES
   dropbox (= 1.4.1)
   elasticsearch (= 2.8.0)
   elixir (= 0.0.1)
-  erlang (>= 0)
+  erlang (= 1.0.5)
   evernote (= 2.0.7)
   flux (= 1.0.1)
   fonts (= 0.0.3)
