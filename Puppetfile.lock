@@ -323,7 +323,7 @@ DEPENDENCIES
   dropbox (= 1.4.1)
   elasticsearch (= 2.8.0)
   elixir (= 0.0.1)
-  erlang (= 1.0.4)
+  erlang (>= 0)
   evernote (= 2.0.7)
   flux (= 1.0.1)
   fonts (= 0.0.3)
