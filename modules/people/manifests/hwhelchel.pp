@@ -5,7 +5,6 @@ class people::hwhelchel {
 
   include alfred
   include spotify
-  include slack
   include heroku
   include foreman
   include osx
