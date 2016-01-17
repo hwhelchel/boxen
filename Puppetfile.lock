@@ -179,11 +179,6 @@ GITHUBTARBALL
     postgresql (4.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-qt
-  specs:
-    qt (1.4.0.pre2)
-
-GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
     redis (3.1.0)
@@ -269,6 +264,11 @@ GITHUBTARBALL
     zshgitprompt (1.0.2)
 
 GITHUBTARBALL
+  remote: erivello/puppet-ohmyzsh
+  specs:
+    ohmyzsh (1.0.0)
+
+GITHUBTARBALL
   remote: hwhelchel/puppet-erlang
   specs:
     erlang (1.0.5)
@@ -323,6 +323,7 @@ DEPENDENCIES
   nginx (= 1.6.0)
   nmap (= 1.0.3)
   nodejs (= 5.0.0)
+  ohmyzsh (>= 0)
   onepassword (= 1.1.5)
   openssl (= 1.0.0)
   openssl (= 1.0.0)
@@ -330,7 +331,6 @@ DEPENDENCIES
   phantomjs (= 3.0.0)
   pkgconfig (= 1.0.0)
   postgresql (= 4.0.1)
-  qt (= 1.4.0.pre2)
   redis (= 3.1.0)
   repository (= 2.4.1)
   ruby (= 8.5.4)

@@ -12,7 +12,6 @@ class people::hwhelchel {
   include chrome
   include dropbox
   include wkhtmltopdf
-  include spectacle
   include evernote
   include skype
   include clojure
@@ -31,11 +30,6 @@ class people::hwhelchel {
   include zsh
   include zshgitprompt
   include ohmyzsh
-  include grandtotal
-  include wunderlist
-
-  include onepassword
-  include onepassword::chrome
 
   include osx::global::tap_to_click
   include osx::finder::show_hidden_files
