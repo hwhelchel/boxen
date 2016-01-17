@@ -66,4 +66,4 @@ github "postgresql",  "4.0.1"
 github "redis",       "3.1.0"
 # github "sysctl",      "1.0.1"
 
-github "puppet-sublime_text"
+github "sublime_text"
