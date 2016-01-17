@@ -9,7 +9,7 @@ class people::hwhelchel {
   include foreman
   include erlang
   include fonts
-  include iterm2
+  include iterm2::stable
   include docker
   include inkscape
   include libreoffice
@@ -49,4 +49,11 @@ class people::hwhelchel {
   class { 'osx::global::key_repeat_rate':
     rate => 2
   }
+
+  include iterm2::colors::arthur
+  include iterm2::colors::piperita
+  include iterm2::colors::saturn
+  include iterm2::colors::solarized_light
+  include iterm2::colors::solarized_dark
+  include iterm2::colors::zenburn
 }
