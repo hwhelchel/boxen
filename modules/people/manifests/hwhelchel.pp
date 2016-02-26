@@ -30,7 +30,6 @@ class people::hwhelchel {
   include ohmyzsh
 
   include osx::global::tap_to_click
-  include osx::finder::show_hidden_files
   class { 'osx::global::key_repeat_delay':
     delay => 10
   }

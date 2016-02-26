@@ -24,11 +24,6 @@ GITHUBTARBALL
     dnsmasq (2.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-docker
-  specs:
-    docker (1.0.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
     dropbox (1.4.1)
@@ -224,11 +219,6 @@ GITHUBTARBALL
     textual (4.2.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-wkhtmltopdf
-  specs:
-    wkhtmltopdf (1.2.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
@@ -274,7 +264,6 @@ DEPENDENCIES
   chrome (= 1.2.0)
   clojure (= 1.3.0)
   dnsmasq (= 2.0.1)
-  docker (= 1.0.0)
   dropbox (= 1.4.1)
   elasticsearch (= 2.8.0)
   elixir (= 0.0.1)
@@ -321,7 +310,6 @@ DEPENDENCIES
   sublime_text (= 1.1.0)
   sudo (= 1.0.0)
   textual (= 4.2.0)
-  wkhtmltopdf (= 1.2.1)
   xquartz (= 1.2.1)
   zsh (= 1.0.0)
   zshgitprompt (= 1.0.2)
