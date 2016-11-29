@@ -12,12 +12,9 @@ class people::hwhelchel {
   include dropbox
   include evernote
   include skype
-  include clojure
   include textual
   include skitch
   include elixir
-  include imagemagick
-  include nmap
   include selfcontrol
   include gimp
   include flux
